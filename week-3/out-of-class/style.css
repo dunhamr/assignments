@@ -1,0 +1,58 @@
+.person {
+    background-color: #DEE8BE;
+}
+
+.term {
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+a:link {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+blockquote {
+    background-color: #FCF7D3;
+}
+
+h1 {
+    color: #CD8C52; 
+}
+
+h2 {
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 2em;
+    padding-right: 2em;
+  } 
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    background-color: #FCF7D3;
+    text-align: center;
+}
+
+#signed-by {
+    font-variant: small-caps;
+}
+
+:lang(ja) {
+    font: Osaka; 
+}
