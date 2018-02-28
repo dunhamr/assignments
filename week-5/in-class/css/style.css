@@ -7,6 +7,7 @@
 body {
     font-family: 'Gentium Basic', serif;
     font-size: 16px;
+    
 }
 
 h1, h2, h3, nav {
@@ -22,8 +23,7 @@ h1, h2, h3 {
 /** Header **/
 header {
     background-color: #6d6fae;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 6rem;
 }
 
 header img {
@@ -33,6 +33,8 @@ header img {
 
 /** Navbar and drop-downs **/
 nav {
+    padding-left: 6rem;
+    padding-right: 6rem;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -40,6 +42,7 @@ nav {
     background-color: #6d6fae;
     color: white;
     position: relative;
+    
 }
 
 nav div.dropdown {
@@ -79,12 +82,39 @@ div.dropbtn {
     cursor: pointer;
 }
 
+aside {
+  width: 25rem;
+}
+
+main {
+  display: flex;
+  padding-left: 6rem;
+  padding-right: 6rem; 
+}
 
 /** Stuff in the main body **/
+
+.scroll {
+  width: 12.5rem;
+  
+}
+
+.fables {
+  text-align: center;
+  
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 article p {
     margin-bottom: 1em;
 }
 
+article {
+  text-align: left;
+}
 .moral {
     font-style: italic;
 }
@@ -102,6 +132,9 @@ article p {
 
 /* Footer */
 footer {
+    padding: 5rem 6rem;
+    text-align: center;
     background-color: #cfc354;
     color: #fffbd5;
+    
 }
