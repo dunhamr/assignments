@@ -62,6 +62,7 @@ body {
 .column-resources {
     float: left;
     width: 33.33%;
+    background-color: white;
     padding: 20px;
 }
 

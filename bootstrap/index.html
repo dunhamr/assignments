@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Bootstrap</title>
+
+    <!-- This is the Bootstrap stylesheet. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Our stylesheet goes after we load Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="bg-dark">
+    <div class="container">
+     <nav class= "navbar navbar-expand navbar-dark">
+      <a class="navbar-brand" href="#">MyTown Library</a>
+       <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="#">Search</a>
+        <a class="nav-item nav-link" href="#">Visit</a>
+        <a class="nav-item nav-link active" href="#">News</a>
+        </div>  
+     </div>
+     </nav>   
+  </header>
+  
+  <section class="container" id="stuff-in-the-middle">
+    <div class="row pt-5">
+      <div class="col-md-7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est risus, efficitur nec quam in, pharetra dictum purus. Nunc ultricies orci sed lectus dignissim hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est risus, efficitur nec quam in, pharetra dictum purus. Nunc ultricies orci sed lectus dignissim hendrerit.</p> 
+        <p>Sed ac lorem suscipit, vulputate quam nec, sodales lacus. In blandit vel mi a efficitur. Etiam mollis vestibulum arcu, non fermentum nunc interdum efficitur. Sed ac lorem suscipit, vulputate quam nec, sodales lacus. In blandit vel mi a efficitur. Etiam mollis vestibulum arcu, non fermentum nunc interdum efficitur. </p>
+        <p>Nunc aliquet, erat quis molestie mattis, elit metus mattis mauris, sed molestie velit odio vel mauris. Vestibulum sit amet lacus id velit feugiat pellentesque. Nunc aliquet, erat quis molestie mattis, elit metus mattis mauris, sed molestie velit odio vel mauris. Vestibulum sit amet lacus id velit feugiat pellentesque</p>
+      </div>
+      
+      <div class="col-md-5">
+        <img src="this-week.jpg" class="img-fluid" alt="scene-in-library">
+      </div>
+    </div>
+
+    <div class="row pb-5 pt-5">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="library-renovation-plans.jpg" alt="Tools-on-a-desk">
+          <div class="card-body">
+          <h5 class="card-title">Library renovation plans!</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="new-shelves.jpg" alt="view-of-bookshelves">
+            <div class="card-body">
+            <h5 class="card-title">THe new books are here!</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="cat-in-bookcase.jpg" alt="tools-on-a-desk">
+            <div class="card-body">
+            <h5 class="card-title">Cats in the Library!</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="text-light bg-dark">
+    <div class="container">
+    <div class="row pt-5">
+      <div class="col-md-3">
+        <h5>Hours</h5>
+        <ul class="list-unstyled">
+          <li>Mon: 9AM - 5PM</li>
+          <li>Mon: 9AM - 5PM</li>
+          <li>Mon: 9AM - 5PM</li>
+          <li>Mon: 9AM - 5PM</li>
+          <li>Mon: 9AM - 5PM</li>
+          <li>Mon: 9AM - 5PM</li>
+          <li>Mon: 9AM - 5PM</li>
+          <li>Mon: 9AM - 5PM</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Branch Hours</h5>
+          <ul class="list-unstyled"> 
+           <li>Mon: 9AM - 5PM</li>
+            <li>Mon: 9AM - 5PM</li>
+            <li>Mon: 9AM - 5PM</li>
+          </ul>  
+      </div>
+      <div class="col-md-2">
+        <h5>About</h5>
+          <ul class="list-unstyled"> 
+            <li>Mon: 9AM - 5PM</li>
+            <li>Mon: 9AM - 5PM</li>
+            <li>Mon: 9AM - 5PM</li>
+          </ul> 
+      </div>
+      <div class="col-md-2">
+        <h5>Contact us</h5>
+          <ul class="list-unstyled"> 
+            <li>Mon: 9AM - 5PM</li>
+            <li>Mon: 9AM - 5PM</li>
+            <li>Mon: 9AM - 5PM</li>
+          </ul> 
+      </div>
+      <div class="col-md-2">
+        <h5>Find us</h5>
+          <img src="library-map.png" class="img-fluid" alt="map-to-library">
+      </div>
+    </div>
+    </div>   
+  </footer>
+  
+<!-- Bootstrap's required JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
